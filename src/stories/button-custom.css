@@ -1,0 +1,41 @@
+.button-default {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  width: 200px;
+  height: 48px;
+  border-radius: 8px 8px 0px 0px;
+  border: 0px;
+}
+
+.button-active {
+  background: #333333;
+}
+
+.button-inactive {
+  background: #ffffff;
+  border: 1px solid #333333;
+}
+
+.text-default {
+  height: 32px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.text-active {
+  color: #ffffff;
+}
+
+.text-inactive {
+  color: #333333;
+}/*# sourceMappingURL=button-custom.css.map */
